@@ -1,0 +1,13 @@
+A
+B
+C
+D
+E
+E
+
+A,D
+F,G
+E,A
+B,D
+E,B
+87,D

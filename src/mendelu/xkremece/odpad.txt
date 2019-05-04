@@ -1,0 +1,95 @@
+/* Vypis vsech uzlu a jejich sousedu */
+
+//        for (int i = 0; i < componentFinder.getNodes().size(); i++) {
+//            System.out.println(componentFinder.getNodes().get(i).getName());
+//
+//            List<Node> sousedi = componentFinder.getNodes().get(i).getNeighbours();
+//            sousedi.forEach((soused) -> {
+//                System.out.println("- " + soused.getName());
+//            });
+//
+//            System.out.println();
+//        }
+
+
+
+/* Prvni testovaci graf */
+
+//        componentFinder.addNode("A");
+//        componentFinder.addNode("B");
+//        componentFinder.addNode("C");
+//        componentFinder.addNode("D");
+//        componentFinder.addNode("E");
+//        componentFinder.addNode("F");
+//
+//        componentFinder.addConnection("B", "C");
+//        componentFinder.addConnection("A", "D");
+//        componentFinder.addConnection("D", "E");
+//        componentFinder.addConnection("C", "F");
+//        componentFinder.addConnection("F", "C");
+
+
+
+/* Druhy testovaci graf */
+
+//        componentFinder.addNode("A");
+//        componentFinder.addNode("B");
+//        componentFinder.addNode("C");
+//        componentFinder.addNode("D");
+//        componentFinder.addNode("E");
+//
+//        componentFinder.addConnection("A", "E");
+//        componentFinder.addConnection("D", "A");
+//        componentFinder.addConnection("B", "D");
+//        componentFinder.addConnection("B", "E");
+
+
+
+/* Zjisteni poctu uzlu v grafu */
+
+//        System.out.println(componentFinder.getNodes().size());
+
+
+
+/* Spusteni hledani komponent v grafu */
+
+//        componentFinder.findComponents();
+
+
+
+/* Zjisteni celkoveho poctu komponent v grafu */
+
+//        System.out.println(componentFinder.getComponents().size());
+
+
+
+/* Vypis komponent s jejich prvky do konzole */
+
+//        componentFinder.getComponents().forEach((singleComponent) -> {
+//            System.out.print("[");
+//
+//            singleComponent.forEach((node) -> {
+//                System.out.print(node.getName() + ",");
+//            });
+//
+//            System.out.print("]");
+//            System.out.println();
+//        });
+
+
+
+/* Nevim, co treba to bude potreba */
+
+//                String[] tokens = input.nextLine().split(",");
+//                if (!enterPressed) {
+//                    // Cteme nazvy uzlu
+//                    if (Arrays.toString(tokens).equals("[]")) {
+//                        System.out.println("Enter");
+//                        enterPressed = true;
+//                    } else {
+//                        System.out.println(Arrays.toString(tokens));
+//                    }
+//                } else {
+//                    // Cteme hrany mezi uzly
+//                    System.out.println(Arrays.toString(tokens));
+//                }
